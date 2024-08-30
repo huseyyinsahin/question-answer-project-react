@@ -9,7 +9,7 @@ function Question({ id, question, answer }) {
         <span>
           {id}.{question}
         </span>
-        <span onClick={() => setShow(!show)}>{show ? arrowup : arrowdown}</span>
+        <span className="icon-span" onClick={() => setShow(!show)}>{show ? arrowup : arrowdown}</span>
       </div>
       <div className="answer">{show && answer}</div>
     </div>

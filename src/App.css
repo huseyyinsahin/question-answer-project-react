@@ -40,6 +40,6 @@
   display: flex;
   justify-content: space-between;
 }
-.ques:nth-child(1) {
+.icon-span {
   cursor: pointer;
 }
