@@ -4,7 +4,7 @@ import { arrowdown, arrowup } from "../helper/icons";
 function Question({ id, question, answer }) {
   const [show, setShow] = useState(false);
   return (
-    <div className="question">
+    <div key={id} className="question">
       <div className="ques">
         <span>
           {id}.{question}

@@ -23,12 +23,13 @@
   font-size: 1.5rem;
   margin-top: 1rem;
   color: rgba(0, 0, 255, 0.502);
+  text-align: center;
 }
 .interviewAccord {
   margin: 3rem 0px;
 }
 .question {
-  width: 500px;
+  width: 60vw;
   box-shadow: 5px 5px 5px;
   padding: 1rem;
   margin-top: 1rem;
